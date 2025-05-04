@@ -2,13 +2,13 @@ import '../components/Encabezado.css'
 
 const Encabezado = () =>{
     return(
-        <section className="Encabezado">
+        <section className="encabezado">
             <nav className="encabezado-nav">
-                <ul className="Encabezado-lista">
+                     <img src="public\aguacate-logo.png" alt="" />
+                <ul className="encabezado-lista">
                      <li><>Home</></li>
-                     <li><>Galeria</></li>
-                     <h1>JolyAguacateApp</h1>
-                     <li><>Proyectos</></li>
+                     <li><>Productos</></li>
+                     <li><>Beneficios</></li>
                      <li><>Contactanos</></li>
                 </ul>
             </nav>

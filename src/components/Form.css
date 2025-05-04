@@ -1,0 +1,63 @@
+/* Fondo oscuro del modal */
+.formulario {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Caja blanca centrada */
+.formulario-contenido {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* Botón de cerrar */
+.cerrar-modal {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Inputs */
+.casillas {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+/* Botón de enviar */
+.formulario-boton {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: none;
+  width: 100%;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.formulario-boton:hover {
+  background-color: #218838;
+}
