@@ -17,21 +17,24 @@ export const ListaTarjetas = [
         descripcion: 'Preparado con ingredientes premium para un sabor único.',
         precio: 200,
     },
+    {
+        imagen: '/public/product-guaca.jpg',
+        titulo: 'Guacamole Gourmet',
+        descripcion: 'Preparado con ingredientes premium para un sabor único.',
+        precio: 200,
+    },
     
  ]
-
- export const ListaCompras = [];
-
- export const obtenerPedidos = () => {
-    const pedidos = localStorage.getItem("pedidos");
-    return pedidos ? JSON.parse(pedidos) : [];
-  };
-  
+   
   export const agregarPedido = (pedido) => {
     const pedidos = JSON.parse(localStorage.getItem("pedidos")) || [];
     pedidos.push(pedido);
     localStorage.setItem("pedidos", JSON.stringify(pedidos));
   };
 
+  export const obtenerPedidos = () => {
+    const pedidos = localStorage.getItem("pedidos");
+    return pedidos ? JSON.parse(pedidos) : [];
+  };
 
  export default ListaTarjetas;

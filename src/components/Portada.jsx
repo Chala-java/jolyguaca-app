@@ -5,10 +5,11 @@ const Portada = () => {
     <section className="portada">
       <div className="portada__info">
         <h2 className="portada__titulo">
-          Guacamole natural. Sin rodeos.
+        🥑 ¡El sabor auténtico del guacamole recién hecho! 🥑
         </h2>
         <p className="portada__subtitulo">
-          Directo del campo a tu mesa. Frescura que se siente.
+        Directo del corazón del campo a tu mesa, sin trucos ni conservantes.
+        Siente la frescura real en cada bocado.
         </p>
         <button className="portada__boton">Ordenar ahora</button>
       </div>

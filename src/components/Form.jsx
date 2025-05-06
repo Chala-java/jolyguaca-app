@@ -37,7 +37,6 @@ const Form = ({ producto, cerrarFormulario }) => {
   <section className='formulario'>
     <div className='formulario-contenido'>
     <button className="cerrar-modal" onClick={() => {
-  console.log("Botón cerrar presionado"); // Verifica si el botón funciona
   cerrarFormulario();
 }}>
   X
@@ -54,8 +53,8 @@ const Form = ({ producto, cerrarFormulario }) => {
       <input className='casillas' onChange={(e) =>setDireccion(e.target.value)} type="text" placeholder='ingresa tu direccion' value={getDireccion}/>
       <input className='casillas' onChange={(e) =>setCantidad(e.target.value)} type="number" placeholder='cantidad de productos' value={getCantidad}/>
       <input className='casillas' onChange={(e) =>setComentario(e.target.value)} type="text" placeholder='Comentario' value={getComentario}/>
-      <button type='submit' className='formulario-boton'>Hacer pedido</button>
       <h2>$ {Total} COPP </h2>
+      <button type='submit' className='formulario-boton'>Hacer pedido</button>
     </form>
     </div>
   </section>

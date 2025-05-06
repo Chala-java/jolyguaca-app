@@ -1,0 +1,42 @@
+.beneficios {
+  width: 100%;
+  padding: 3rem 1rem;
+  background-color: #FFFF;
+  text-align: center;
+}
+
+.beneficios__titulo {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.beneficios__contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.beneficio {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.beneficio__icono {
+  font-size: 2.5rem;
+}
+
+.beneficio__titulo {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.beneficio__descripcion {
+  font-size: 1rem;
+  color: #444;
+}
