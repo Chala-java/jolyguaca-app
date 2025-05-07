@@ -1,0 +1,123 @@
+.header-admin {
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header-admin-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 32px;
+  }
+  
+  .header-admin-logo .logo-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #000000;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  .header-admin-logo .logo-text span {
+    font-weight: 400;
+    color: #557C3E;
+  }
+  
+  .header-admin-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .admin-nick {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .header-admin-menu button {
+    background-color: #557C3E;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-admin-menu button:hover {
+    background-color: #446832;
+  }
+  
+  .cabecera-admin {
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .cabecera-admin__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 32px;
+  }
+  
+  .cabecera-admin__logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cabecera-admin__texto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #000000;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  .cabecera-admin__texto span {
+    font-weight: 400;
+    color: #557C3E;
+  }
+  
+  .cabecera-admin__menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .cabecera-admin__usuario {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .cabecera-admin__boton {
+    background-color: #557C3E;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .cabecera-admin__boton:hover {
+    background-color: #446832;
+  }

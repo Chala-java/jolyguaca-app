@@ -1,12 +1,75 @@
-# React + Vite
+# 🥑 JolyGuacamoly - Sistema de Pedidos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Descripción
+Sistema web para gestionar pedidos de guacamole artesanal, permitiendo realizar pedidos online y su gestión administrativa.
 
-Currently, two official plugins are available:
+## ⚙️ Características Principales
+- 🛍️ Catálogo de productos
+- 📝 Sistema de pedidos online
+- 🔐 Panel administrativo
+- 📊 Gestión de estados
+- 📱 Diseño responsive
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎨 Paleta de Colores
+- `#557C3E` - Verde JolyGuacamoly 
+- `#446832` - Verde Oscuro
+- `#333333` - Negro Texto
+- `#666666` - Gris Texto
+- `#FFFFFF` - Blanco
+- `#E0E0E0` - Gris Borde
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías
+- ⚛️ React 19
+- 🔄 React Router DOM 6
+- 🔔 SweetAlert2
+- 💾 LocalStorage
+- 🎯 CSS (BEM)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Instalación
+1. Clonar repositorio:
+```bash
+git clone https://github.com/tu-usuario/jolyguaca-app.git
+```
+
+2. Instalar dependencias:
+```bash
+cd jolyguaca-app
+npm install
+```
+
+3. Ejecutar:
+```bash
+npm run dev
+```
+
+## 📁 Estructura
+```
+jolyguaca-app/
+├── 📂 public/
+│   └── 🖼️ images/
+├── 📂 src/
+│   ├── 📂 components/
+│   ├── 📂 pages/
+│   ├── 📂 services/
+│   ├── 📂 helper/
+│   └── 📂 router/
+└── 📄 README.md
+```
+
+## 📸 Capturas de Pantalla
+
+### Vista Principal
+![Vista Principal](./public/screenshots/inicio.png)
+
+### Formulario de Pedidos
+![Formulario](./public/screenshots/formulario.png)
+
+### Panel Administrativo
+![Admin Panel](./public/screenshots/admin.png)
+
+## 🔑 Credenciales Demo
+- 👤 Usuario: admin
+- 🔒 Contraseña: 123456
+
+## 👨‍💻 Autor
+Juan David Chala

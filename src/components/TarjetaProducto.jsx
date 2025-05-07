@@ -1,10 +1,10 @@
-import "./Card.css";
-import "./Form.css"
+import "./TarjetaProducto.css";
 import { ListaTarjetas } from "../services/dataBase.jsx";
-import Form from "./Form";
+import FormularioPedido from "./FormularioPedido.jsx";
 import { useState } from "react";
+import { alertaRedireccion } from "../helper/Funciones.jsx";
 
-const Card = () => {
+const TarjetaProducto = () => {
   const [mostrarFormulario, setMostrarFormulario] = useState(false);
   const [productoSeleccionado, setProductoSeleccionado] = useState(null);
 
@@ -18,6 +18,9 @@ const Card = () => {
     setProductoSeleccionado(null);
   };
 
+
+
+
   return (
       <div className="lista-tarjetas">
         {ListaTarjetas.map((tarjeta, index) => (
@@ -29,7 +32,7 @@ const Card = () => {
             />
             <h2 className="tarjeta__titulo">{tarjeta.titulo}</h2>
             <p className="tarjeta__descripcion">{tarjeta.descripcion}</p>
-            <h2> {tarjeta.precio}</h2>
+            <h2>$ {tarjeta.precio}</h2>
             <button
               className="tarjeta__boton"
               onClick={() => manejarClick(tarjeta)} >
@@ -41,7 +44,7 @@ const Card = () => {
 
       {mostrarFormulario && (
       
-            <Form producto={productoSeleccionado}
+            <FormularioPedido producto={productoSeleccionado}
             cerrarFormulario={cerrarFormulario}
              />
       )}
@@ -49,4 +52,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default TarjetaProducto;

@@ -1,5 +1,4 @@
 import './Beneficios.css'
-// Beneficios.jsx
 const Beneficios = () => {
   const listaBeneficios= [
     {

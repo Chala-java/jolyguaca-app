@@ -1,5 +1,9 @@
 import Swal from "sweetalert2";
 
+export function GenerarToken(){
+   return "token"+Math.random.toString(36).substring(4,10)
+}
+
 export function alertaRedireccion(fn, titulo, mensaje, icono, url) {
     let timerInterval;
     Swal.fire({
@@ -28,6 +32,14 @@ export function alertaGenerica(titulo, mensaje, icono) {
         text: mensaje,
         icon: icono
     });
+}
+
+export function AlertaPedido(titulo, mensaje, icono){
+    Swal.fire({
+        title:'Pedido Realizado',
+        text: 'Pronto nos contactamos contigo',
+        icon: icono
+    })
 }
 
 

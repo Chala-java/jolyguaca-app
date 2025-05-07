@@ -1,15 +1,16 @@
+import RutaProtegida from "../components/RutaProtegida";
 import Admin from "../pages/Admin";
-import Home from "../pages/Home";
+import Inicio from "../pages/Inicio";
 import Login from "../pages/Login";
 
 export let enrutador = [
   {
     path: "/",
-    element: <Home />,
+    element: <Inicio />,
   },
   {
     path: "/admin",
-    element: <Admin />,
+    element: <RutaProtegida proteger={<Admin/>} />,
   },
   {
     path: "/login",

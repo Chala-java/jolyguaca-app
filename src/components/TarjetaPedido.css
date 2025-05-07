@@ -1,0 +1,47 @@
+
+.pedido {
+    width: 280px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pedido__titulo {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .pedido__detalle {
+    color: #666666;
+    font-size: 14px;
+    margin: 8px 0;
+  }
+  
+  .pedido__estado {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .pedido__selector {
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .pedido__boton {
+    background-color: #557C3E;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  

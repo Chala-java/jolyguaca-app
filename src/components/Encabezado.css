@@ -1,10 +1,13 @@
-/* Encabezado.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
 
 .encabezado {
   background-color: #ffffff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   width: 100%;
-  position: sticky; /* Opcional: hace que el header se mantenga visible al hacer scroll */
+  position: sticky; 
   top: 0;
   z-index: 100;
 }
@@ -15,7 +18,7 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 15px 20px;
+  padding: 16px 32px; /* Cambiado de 1rem 2rem a píxeles */
 }
 
 .encabezado-logo {
@@ -23,29 +26,28 @@
   align-items: center;
 }
 
-.logo-img {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
-
 .logo-text {
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  color: #527247;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem; 
+  color: #000000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .logo-text span {
-  color: #8BC34A;
+  font-weight: 400;
+  color: #557C3E;
 }
 
 .encabezado-lista {
   display: flex;
   list-style: none;
   align-items: center;
+  gap: 2rem;
   margin: 0;
   padding: 0;
+  justify-content: center; 
 }
 
 .encabezado-boton {
@@ -53,50 +55,35 @@
 }
 
 .encabezado-boton a {
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  color: #527247;
-  font-weight: 500;
-  font-size: 16px;
+  color: #333333;
+  font-size: 14px; 
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
 }
 
 .encabezado-boton a:hover {
-  color: #8BC34A;
+  color: #FFFF;
+  background-color: #557C3E;
 }
 
 .encabezado-lista button {
-  background-color: #8BC34A;
+  background-color: #557C3E;
   color: white;
   border: none;
-  padding: 8px 15px;
-  border-radius: 20px;
-  font-weight: bold;
+  padding: 10px 20px; 
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px; 
+  letter-spacing: 1px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
   margin-left: 15px;
 }
 
 .encabezado-lista button:hover {
-  background-color: #72a839;
-}
-
-/* Media query para responsividad */
-@media (max-width: 768px) {
-  .encabezado-nav {
-    flex-direction: column;
-    padding: 10px;
-  }
-  
-  .encabezado-lista {
-    margin-top: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .encabezado-boton {
-    margin: 5px 10px;
-  }
-  
-  .encabezado-lista button {
-    margin-top: 10px;
-    margin-left: 0;
-  }
+  background-color: #446832;
 }
